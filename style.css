@@ -165,7 +165,7 @@ color: #E02C6D;
     cursor: pointer;
 }
 .contact-button:hover{
-    background-color: orange;
+    background-color: #f5c0d7ea;;
     color: #fff;
 }
 /* -------------footer start---------- */
@@ -184,23 +184,116 @@ background-color: rgb(3, 3, 36);
 }
 
 /* ------------responsive css----------------- */
-@media (max-width:1495px) {
+@media (max-width:1400px) {
+    .banner-right img{
+        width: 450px;
+
+    }
     .banner-title{
-        margin-left: 205px;
+        margin-left: 200px;
     }
     .products-1{
         margin-left: 160px;
 }
-@media (max-width:1280px) {
+.contact-conatiner{
+    margin: 70px;
+}
+}
+@media (max-width:1300px) {
+    .banner-right img{
+        width: 370px;
+
+    }
     .banner-title{
         margin-left: 170px;
     }
     .products-1{
         margin-left: 80px;
    }
+   .contact-conatiner{
+    margin: 50px;
 }
+}
+@media (max-width:1175px) {
+    
+    .banner-right img{
+        width: 270px;
+    }
+    .contact-conatiner{
+        margin: 30px;
+    }
+    
+
+}
+
 @media (max-width:1050px) {
+    .banner-title{
+        margin-left: 150px;
+    }
+    .banner-right img{
+        width: 250px;
+    }
     .products-1{
-        grid-template-columns: repeat(2,2fr);
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+       margin-left: 120px;
+    }
+    .contact-conatiner{
+        margin: 20px;
+    }
+    .footer-container{
+        width: 100%;
+    }
+}
+
+@media (max-width: 810px) {
+    .banner-title{
+        margin-left: 130px;
+    }
+    .banner-right img{
+        width: 180px;
+    }
+    .products-1{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+       margin-left: 100px;
+    }
+    .contact-conatiner{
+        margin: 10px;
+    }
+    .footer-container{
+        width: 100%;
+    }
+}
+
+@media (max-width:795px) {
+    .banner-title{
+        margin-left: 230px;
+        margin-top: 80px;
+    }
+    .banner{
+        display: grid;
+       grid-template-columns: 1fr;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+    .banner-left h1{
+        Width: 600px;
+        font-size: 40px;
+    }
+    .banner-right img{
+        width: 60%;
+        margin-top: 30px;
+    }
+    .products-1{
+        display: grid;
+        grid-template-columns: 1fr;
+       margin-left: 210px;
+    }
+    .contact-conatiner{
+        margin: 50px;
+    }
+    .footer-container{
+        width: 100%;
     }
 }
