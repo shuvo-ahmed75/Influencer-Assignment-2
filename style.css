@@ -23,6 +23,7 @@ body{
 }
 .banner-left h1{
     Width: 600px;
+    font-size: 40px;
 }
 
 .banner-right img{
@@ -158,6 +159,7 @@ color: #E02C6D;
     margin-top: 30px;
     border-radius: 5px;
     border-style: none;
+    cursor: pointer;
 }
 .contact-button:hover{
     background-color: orange;
